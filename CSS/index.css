@@ -25,7 +25,7 @@ button:hover {
 
 .container1 {
     height: auto;
-    background-image: url(/Images/bg2.jpg);
+    background-image: url(./Images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -167,7 +167,7 @@ button:hover {
 }
 
 .container2 {
-    background-image: url(/Images/ELEMENT.png);
+    background-image: url(./Images/ELEMENT.png);
     background-repeat: repeat-y;
     background-size: cover;
     border-bottom: .3vw solid white;

@@ -1,4 +1,4 @@
-console.log("OHAYO")
+console.log("OHiYO")
 function btnaction() {
     var menu = document.getElementById("menu-btn");
     var nav = document.getElementById("nav");

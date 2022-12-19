@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/index.js"></script>
     <link rel="stylesheet" href="/CSS/index.css">
     <title>RLS AMU</title>
 </head>
@@ -23,7 +24,15 @@
             </div>
             <div class="links">
                 <div class="insta"><img class="insta-img" src="/Images/INSTA LOGO.png" alt=""></div>
-                <div class="menu"><img class="menu-img" src="/Images/OPTIONS LOGO.png" alt=""></div>
+                <div class="menu" id="menu-btn" onclick="btnaction()"><img class="menu-img"
+                        src="/Images/OPTIONS LOGO.png" alt=""></div>
+                <div class="nav-panel" id="nav">
+                    <button class="close-btn" onclick="btnaction()" id="close">X</button>
+                    <a href="">LINK</a>
+                    <a href="">LINK</a>
+                    <a href="">LINK</a>
+                    <a href="">LINK</a>
+                </div>
             </div>
         </div>
         <div class="blocks">
@@ -42,16 +51,16 @@
         </div>
         <div class="blocks">
             <div class="label">
-                <p>ARTICLES</p>
+                <button>ARTICLES</button>
             </div>
             <div class="label">
-                <p>PROSE</p>
+                <button>PROSE</button>
             </div>
             <div class="label">
-                <p>POETRY</p>
+                <button>POETRY</button>
             </div>
             <div class="label">
-                <p>EVENT GALLERY</p>
+                <button>EVENT GALLERY</button>
             </div>
         </div>
     </div>

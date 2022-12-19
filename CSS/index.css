@@ -14,11 +14,12 @@ img {
 
 button {
     border-radius: 5px;
+    border-style: none;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: green;
+    background-color: gold;
     scale: 1.01;
 }
 
@@ -78,7 +79,7 @@ button:hover {
 }
 
 .insta-img:hover {
-    scale: 1.2;
+    scale: 1.05;
     cursor: pointer;
 }
 
@@ -88,8 +89,51 @@ button:hover {
     display: inline-block;
 }
 
+.nav-panel {
+    display: none;
+    text-align: right;
+    width: 20vw;
+    background-color: white;
+    border: .35vw solid darkgoldenrod;
+    position: absolute;
+    right: 0vw;
+    top: 9.5vw;
+    border-radius: 2vw;
+    box-sizing: border-box;
+}
+
+.nav-panel a {
+    display: block;
+    font-size: 1.09vw;
+    text-align: center;
+    padding: 1vw;
+    margin: .5vw 2vw;
+    box-shadow: 0vw 0vw 1vw 0vw;
+}
+
+.nav-panel a:hover {
+    background-color: limegreen;
+    scale: 1.08;
+}
+
+.close-btn {
+    padding: 1vw;
+    width: 5vw;
+    border-radius: 0vw 2vw 0vw 0vw;
+    color: red;
+    font-size: 1.15vw;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
 .menu-img:hover {
-    scale: 1.2;
+    scale: 1.05;
     cursor: pointer;
 }
 
@@ -108,14 +152,16 @@ button:hover {
 .label {
     width: 25%;
     border-top: .5vw solid white;
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-.label>p {
+.label>button {
     width: 15vw;
     text-align: center;
     margin: auto;
-    background-color: white;
+    padding: 0.2vw;
     font-size: 1.6vw;
     font-weight: bold;
 }
@@ -139,7 +185,7 @@ button:hover {
 .content h2 {
     transform: rotate(270deg);
     font-size: 2.5vw;
-    color: orangered;
+    color: #FFDB58;
 }
 
 .content p {

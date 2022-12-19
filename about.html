@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/about.css">
+    <script src="./index.js"></script>
+    <title>RLS AMU</title>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="header">
+            <div class="logo"><img src="./Images/RLS LOGO.png" alt=""></div>
+            <div class="name">
+                <div class="r">
+                    <img src="./Images/R.png" alt="">
+                </div>
+                <div class="title">
+                    <h1>ALEIGH LITERARY SOCIETY</h1>
+                </div>
+            </div>
+            <div class="links">
+                <div class="insta"><img class="insta-img" src="./Images/INSTA LOGO.png" alt=""></div>
+                <div class="menu" id="menu-btn" onclick="btnaction()"><img class="menu-img"
+                        src="./Images/OPTIONS LOGO.png" alt=""></div>
+                <div class="nav-panel" id="nav">
+                    <button class="close-btn" onclick="btnaction()" id="close">X</button>
+                    <a href="">LINK</a>
+                    <a href="">LINK</a>
+                    <a href="">LINK</a>
+                    <a href="">LINK</a>
+                </div>
+            </div>
+        </div>
+        <div class="blocks">
+           <div class="slider owl-carousel ">
+            <img src="./Images/aboutus/2.jpg" alt="">
+            <img src="./Images/aboutus/3.jpg" alt="">
+            <img src="./Images/aboutus/4.jpg" alt="">
+            <img src="./Images/aboutus/5.jpg" alt="">
+            
+           </div>
+        </div>
+        
+    </div>
+
+        <div class="container3">
+            <h1>About Us</h1>
+            <div class="content">
+                <p>
+                    The Literary Society of Shaheed Sukhdev College of Business Studies (aka LitSoc) is a collection of diverse, yet like-minded individuals who come together to create a safe space, a place where we can forget about our worldly worries and express ourselves freely. We believe that creativity and learning can’t and shouldn’t be forced and enjoying the process is equally, if not more, important. Through writing sessions, book discussions, national events, frequent outings and several other initiatives we not only spark creativity and instil good writing skills in our members, but we also ensure that everyone has a good time.</p>
+                    <br>
+                    <p>We are always evolving and coming up with new initiatives and creative and interesting tasks all coming from members’ suggestions, which we highly respect. Thus, the work we do is never fixed, although a quick summary of the things we usually do is: -</p>
+                    <br>
+                    <p>Bibliotheca: It is the Annual Literature Fest of Shaheed Sukhdev College of Business Studies which comes under Crescendo, the cultural fest of our college. Under Bibliotheca, we hold several events, both online and offline revolving around the world of literature. We also hold our flagship event: 'Hearsay' under Bibliotheca, in which a diverse set of people from different walks of life come and share their experiences and wisdom in small groups, kind of like a library of humans.</p>
+                    <br>
+                    <p>The blog: The latest addition to the LitSoc arsenal is our very own blog. This blog is a medium for people to express themselves freely, a place for them to showcase their creativity. It’s a place to capture the personalities that pass through the halls of this college; all of them in a singular quest for success yet defined by a unique set of ideas through which they view the world. Through this medium, we hope to inspire and get inspired.</p>
+                    <br>
+                    <p>The college magazine: Formerly known as the Ed-board, LitSoc is responsible for editing, designing and publishing the annual college magazine: Quadrangle, where we try to capture the essence of the college and year that went by.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="logo"><img src="./Images/AMU LOGO.png" alt=""></div>
+            <div class="subscribe-box">
+                <h2>SIGN-UP FOR NOTIFICATION</h2>
+                <input type="email" name="email" id="email" placeholder="Enter your mail here"></input>
+                <button>Subscribe Now</button>
+            </div>
+            <div class="logo"><img src="./Images/RLS LOGO.png" alt=""></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:1500,
+    autoplayHoverPause:true
+});
+    </script>
+</body>
+
+</html>

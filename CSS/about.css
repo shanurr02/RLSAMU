@@ -1,0 +1,30 @@
+.slider{
+
+    background-size: cover;
+    width: 100vw;
+    height: 35vw;
+    overflow: hidden;
+}
+.slider img{
+    display: block;
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+}
+.container3{
+    padding-top: 5vw;
+    background: url('../Images/bg3.jpg');
+    background-size: cover;
+    
+}
+
+.content{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.content p{
+    color: white;
+
+}

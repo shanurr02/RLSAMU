@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #0a402b;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: green;
+    scale: 1.01;
+}
+
+.container1 {
+    height: auto;
+    background-image: url(/Images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    border-bottom: .3vw solid white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 9vw;
+    height: fit-content;
+}
+
+.name {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.r {
+    width: 7.5vw;
+    height: fit-content;
+}
+
+.title {
+    height: fit-content;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 3.5vw;
+    color: white;
+}
+
+.links {
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.insta {
+    width: 5vw;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.insta-img:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.menu {
+    width: 5vw;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.menu-img:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.blocks {
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.box {
+    width: 24%;
+    height: fit-content;
+}
+
+.label {
+    width: 25%;
+    border-top: .5vw solid white;
+    margin-bottom: 10px;
+}
+
+.label>p {
+    width: 15vw;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    font-size: 1.6vw;
+    font-weight: bold;
+}
+
+.container2 {
+    background-image: url(/Images/ELEMENT.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    border-bottom: .3vw solid white;
+    border-top: .3vw solid white;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2vw 0px;
+}
+
+.content h2 {
+    transform: rotate(270deg);
+    font-size: 2.5vw;
+    color: orangered;
+}
+
+.content p {
+    font-size: 1.5vw;
+    text-align: justify;
+    color: white;
+}
+
+.container3 {
+    border-bottom: .3vw solid white;
+    border-top: .3vw solid white;
+}
+
+.container3 h1 {
+    margin-top: .45vw;
+    text-align: center;
+    font-size: 3.5vw;
+    color: greenyellow;
+}
+
+.blocks2 {
+    flex-wrap: wrap;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.box2 {
+    width: 30%;
+    margin-top: 2vw;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 0vw;
+}
+
+.subscribe-box {
+    width: 35vw;
+    text-align: center;
+}
+
+.subscribe-box h2 {
+    font-size: 2vw;
+    color: white;
+    padding: 0.5vw 0vw;
+}
+
+.subscribe-box input {
+    width: 20vw;
+    color: black;
+    text-align: center;
+    height: 2vw;
+    font-weight: bold;
+    border: none;
+    font-size: 1vw;
+}
+
+.subscribe-box button {
+    width: 10vw;
+    height: 2.29vw;
+    border: none;
+    font-size: 1vw;
+}

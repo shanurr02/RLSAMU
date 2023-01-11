@@ -24,14 +24,11 @@ button:hover {
     scale: 1.01;
 }
 
-.container1 {
-    height: auto;
+
+.header {
     background-image: url(../Images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.header {
     border-bottom: .3vw solid white;
     display: flex;
     flex-wrap: nowrap;
@@ -154,89 +151,166 @@ button:hover {
     display: none;
 }
 
-
-.blocks {
-    display: flex;
-    height: auto;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
+.prose {
+    color: #184041;
+    margin: 1.5vw 0vw;
+    padding: 1vw;
+    font-size: 10vw;
+    display: inline-block;
+    background-color: #efd994;
 }
 
-.box {
-    width: 24%;
+.featured-works {
+    display: inline-block;
+    float: right;
+    font-size: 6vw;
+    margin: 3vw 0vw;
+    padding: 1vw;
+    color: #0a402b;
+    background-color: white;
+}
+
+.box1 {
+    height: 14vw;
+    margin: 2.5vw auto;
+    width: 80%;
+    display: flex;
+    padding: .5vw;
+    background-color: rgb(159 146 17 / 80%);
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image {
+    width: 30%;
+    box-sizing: border-box;
+    border: .5vw solid #0a402b;
     height: fit-content;
 }
 
-.label {
+.details {
     width: 25%;
-    border-top: .5vw solid white;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    height: fit-content;
 }
 
-.label>button {
-    width: 15vw;
-    text-align: center;
-    margin: auto;
-    padding: 0.2vw;
-    font-size: 1.6vw;
-    font-weight: bold;
+.heading {
+    font-size: 3vw;
+    font-weight: bolder;
+    color: #0a402b;
 }
 
-.container2 {
-    background-image: url(./Images/ELEMENT.png);
-    background-repeat: repeat-y;
-    background-size: cover;
-    border-bottom: .3vw solid white;
-    border-top: .3vw solid white;
+.creator {
+    font-size: 2vw;
+    color: #0a402b;
 }
 
-.content {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 2vw 0px;
+.para {
+    width: 40%;
+    height: 11vw;
+    font-size: 1.25vw;
 }
 
-.content h2 {
-    transform: rotate(270deg);
-    font-size: 2.5vw;
-    color: #FFDB58;
-}
-
-.content p {
-    font-size: 1.5vw;
+.para p {
+    overflow: hidden;
+    height: 90%;
+    margin-bottom: .25vw;
     text-align: justify;
     color: white;
 }
 
+.para a {
+    font-weight: bolder;
+    color: white;
+    float: right;
+    text-decoration: underline;
+}
+
 .container3 {
-    border-bottom: .3vw solid white;
-    border-top: .3vw solid white;
-}
-
-.container3 h1 {
-    margin-top: .45vw;
-    text-align: center;
-    font-size: 3.5vw;
-    color: #FFDB58;
-}
-
-.blocks2 {
-    flex-wrap: wrap;
     display: flex;
-    height: auto;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
 }
 
-.box2 {
+.recently-published {
+    display: inline-block;
+    font-size: 6vw;
+    margin: 3vw 0vw;
+    padding: 1vw;
+    color: #0a402b;
+    background-color: white;
+}
+
+.box {
+    box-sizing: border-box;
     width: 30%;
-    margin-top: 2vw;
+    margin: 1vw;
+    height: 30vw;
+    padding: 1.5vw;
+    text-align: center;
+    background-color: rgb(159 146 17 / 80%);
+}
+
+.box-img {
+    width: 80%;
+    margin: auto;
+}
+
+.box-details {
+    height: fit-content;
+    margin: 1vw 0vw;
+}
+
+.box-heading {
+    font-size: 2vw;
+    font-weight: bolder;
+    color: #0a402b
+}
+
+.box-creator {
+    font-size: 1.5vw;
+    color: #0a402b;
+}
+
+.box-para {
+    height: 11vw;
+    font-size: 1.1vw;
+}
+
+.box-para p {
+    overflow: hidden;
+    height: 6vw;
+    margin-bottom: .75vw;
+    color: white;
+    text-align: justify;
+}
+
+.box-para a {
+    font-weight: bolder;
+    color: white;
+    font-size: 1.3vw;
+    float: right;
+    text-decoration: underline;
+}
+
+.browse-btn-box {
+    text-align: center;
+}
+
+.browse {
+    color: #0a402b;
+    background-color: #efd994;
+    font-size: 1.5vw;
+    padding: .25vw;
+    font-weight: bolder;
+    border-radius: 0 0 0 0;
+    margin: 1vw auto;
 }
 
 .footer {
+    border-top: 0.3vw solid white;
     display: flex;
     align-items: center;
     justify-content: center;

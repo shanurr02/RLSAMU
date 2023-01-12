@@ -1,0 +1,183 @@
+body{
+    background: white;
+}
+.bg{
+    background: url('../Images/bg3.jpg');
+}
+.container3{
+    border-top: 0;
+}
+.header{
+    background: url('../Images/bg2.jpg');
+    background-size: cover;
+}
+.heading{
+    color: rgba(253, 201, 28, 0.829);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding:1.2vw;
+   
+}
+
+.block-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.block-item{
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    gap: 6vw;
+    
+
+}
+.block-item .profile{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid  red; */
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+}
+.block-item .profile .profile-pic{
+   
+    /* background: url(../Images/founders/profile.jpg); */
+    /* background-size: contain; */
+    width: 15vw;
+    height: 15vw;
+    border: 1.5vw solid #cdac0a;
+    border-radius: 15vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0%;
+    
+    
+}
+.block-item .profile .profile-pic img{
+    width: calc(15vw - .6vw);
+    height: calc(15vw - .6vw);
+    border-radius:calc(15vw - .6vw);
+    border: .4vw solid rgb(3, 83, 3);
+    padding: 0;
+    margin: 0;
+}
+
+
+.block-item .profile .name{
+
+    color: #cacd0a;
+        font-size: 1vw;
+        padding-top: 1vw;
+}
+.block-item .profile .designation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 0.9vw;
+        text-transform: uppercase;
+        gap: .3vw;
+        
+       
+}
+
+.block-item .testimony{
+    /* border: 2px solid red; */
+    color: white;
+    background: #cdad0a7a;
+    padding: 3vw;
+}
+.block-item .testimony p{
+    font-size: 1.5vw;
+    overflow: hidden;
+
+}
+
+.block-item .testimony .sign{
+    width: 8vw;
+    height: 4vw;
+    padding-top: .3vw;
+    float: right;
+    
+}
+
+/* Card Styling */
+/* Container 3 Styling */
+.container3 .block-main {
+    padding-bottom: 5vw;
+}
+.container3 .card{
+
+}
+.container3 .card .profile{
+    
+overflow: hidden;
+}
+.container3 .card .profile img{
+    display: block;
+    width: 12vw;
+    height: 14vw;
+    border: .8vw solid #cdac0a;
+    
+
+}
+.container3 .card .name{
+
+    color: yellow;
+        font-size: 1.2vw;
+        font-weight: bold;
+}
+.container3 .card .designation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: .6vw;
+    gap: .2vw;
+}
+
+.container3 .team-sign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container3 .team-sign img{
+    display: block;
+    width: 8vw;
+    height: 4vw;
+
+}
+.footer{
+    background: url('../Images/bg3.jpg');
+}
+
+@media screen and (max-width:700px){
+    .block-item{
+        flex-direction: column;
+    }
+    .container1 .block-main, .container2 .block-main{
+        padding-bottom: 5vw;
+    }
+    .container2 .block-item{
+        flex-direction: column-reverse;
+    }
+    .container1 .block-main .profile, .container2 .block-main .profile{
+        scale: 1.1;
+    }
+   .container3 .block-main .profile{
+        scale: 1.2;
+    }
+}

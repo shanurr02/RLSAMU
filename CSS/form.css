@@ -1,3 +1,6 @@
+*{
+    background-size: cover;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -53,11 +56,13 @@
 .container1 .img{
     height: 100%;
     background: url('../Images/bg2.jpg');
+    background-size: cover;
 }
 
 .container1 .item:first-child{
     height: 14vw;
     background: url('../Images/bg3.jpg');
+    background-size: cover;
 }
 .container1 .item:last-child{
     height: 100vw;

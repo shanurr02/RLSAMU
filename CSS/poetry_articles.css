@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #0a402b;
+    background-image: url(../Images/ELEMENT.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+hr {
+    width: 100%;
+    height: 0.25vw;
+    color: white;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border-radius: 5px;
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: gold;
+    scale: 1.01;
+}
+
+.container1 {
+    height: auto;
+    background-image: url(../Images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    border-bottom: .3vw solid white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 9vw;
+    height: fit-content;
+}
+
+.name {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.r {
+    width: 7.5vw;
+    height: fit-content;
+}
+
+.title {
+    height: fit-content;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 3.5vw;
+    color: white;
+}
+
+.links {
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.insta {
+    width: 5vw;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.insta-img:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.menu {
+    width: 5vw;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.menu-img:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.nav-panel {
+    display: none;
+    text-align: right;
+    width: 20vw;
+    background-color: #152b16;
+    border-top: .35vw solid #ddbb15;
+    border-bottom: .35vw solid #ddbb15;
+    position: absolute;
+    right: 0vw;
+    top: 9.5vw;
+    box-sizing: border-box;
+}
+
+.side-panel {
+    position: absolute;
+    right: 20vw;
+    top: 17.5vw;
+}
+
+.nav-panel a {
+    display: block;
+    font-size: 1.09vw;
+    text-align: center;
+    color: #d9bb15;
+    padding: 1vw;
+    border-top: .05vw solid gray;
+    border-bottom: .05vw solid gray;
+    /* margin: .5vw 2vw;
+    box-shadow: 0vw 0vw 1vw 0vw; */
+}
+
+.linkbtn {
+    display: block;
+    font-size: 1.09vw;
+    text-align: center;
+    color: #d9bb15;
+    padding: 1vw;
+    margin: auto;
+    background-color: #152b16;
+}
+
+.linkbtn:hover {
+    background-color: #152b16;
+    color: #d9bb15;
+    scale: 1;
+}
+
+/* .nav-panel a:hover {
+    scale: 1.08;
+} */
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.tag {
+    background-color: #efd994;
+    display: inline-block;
+    position: relative;
+    color: #184041;
+    margin: 1.5vw 0vw;
+    position: relative;
+    padding-right: 2.5vw;
+}
+
+.details {
+    margin: .7vw 2.5vw;
+}
+
+.tag::before,
+.details::after {
+    display: block;
+    content: '';
+    position: absolute;
+    background-color: #000;
+}
+
+.details::after {
+    width: 90%;
+    height: .25vw;
+    inset: auto 0;
+}
+
+.tag::before {
+    inset: 0 auto;
+    height: 100%;
+    width: .25vw;
+    margin-left: 1.8vw;
+}
+
+.details p {
+    font-style: italic;
+    font-size: 1.3vw;
+}
+
+.details h1 {
+    font-size: 5vw;
+}
+
+.details h2 {
+    font-size: 5vw;
+}
+
+.author {
+    text-align: right;
+    font-style: italic;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.container,
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: 2vw;
+}
+
+.content {
+    width: 40%;
+    color: white;
+}
+
+.article-img {
+    width: 40%;
+}
+
+.container2 {
+    width: 80%;
+}
+
+.img-card {
+    width: 25%;
+    text-align: center;
+}
+
+.img-card img {
+    width: 50%;
+    margin: auto;
+    border: .05vw solid #d9bb15;
+}
+
+.img-card h5 {
+    color: #ddbb15;
+}
+
+.img-card p {
+    color: white;
+}
+
+.dialog {
+    width: 60%;
+    background-color: #d9bc154f;
+    padding: 1vw 2vw;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 0vw;
+}
+
+.subscribe-box {
+    width: 35vw;
+    text-align: center;
+}
+
+.subscribe-box h2 {
+    font-size: 2vw;
+    color: white;
+    padding: 0.5vw 0vw;
+}
+
+/* .subscribe-box input {
+    width: 20vw;
+    color: black;
+    text-align: center;
+    height: 2vw;
+    font-weight: bold;
+    border: none;
+    font-size: 1vw;
+}
+
+.subscribe-box button {
+    width: 10vw;
+    height: 2.29vw;
+    border: none;
+    font-size: 1vw;
+} */
+
+.subscribe-box a {
+    background-color: #efd994;
+    text-decoration: none;
+    display: inline-block;
+    padding: .2vw 2vw;
+    margin: .3vw 0vw;
+    font-size: 1.8vw;
+    color: #000;
+}

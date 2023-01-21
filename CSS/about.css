@@ -1,3 +1,7 @@
+.nav-panel{
+    z-index: 5;
+}
+
 .slider{
 
     background-size: cover;
